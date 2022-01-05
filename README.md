@@ -1,28 +1,36 @@
-# The Hacker theme
+# UBIRCH DOCU THEME
 
-[![.github/workflows/ci.yaml](https://github.com/pages-themes/hacker/actions/workflows/ci.yaml/badge.svg)](https://github.com/pages-themes/hacker/actions/workflows/ci.yaml) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-hacker.svg)](https://badge.fury.io/rb/jekyll-theme-hacker)
-
-*Hacker is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/hacker), or even [use it today](#usage).*
+Theme for GitHub pages with documentational purpose of UBIRCH projects
 
 ![Thumbnail of Hacker](thumbnail.png)
 
+Based on The [Hacker theme](https://github.com/pages-themes/hacker) - a Jekyll theme for GitHub Pages.
+
 ## Usage
 
-To use the Hacker theme:
+To use the UBIRCH docu theme:
 
 1. Add the following to your site's `_config.yml`:
 
     ```yml
-    remote_theme: pages-themes/hacker@v0.2.0
+    remote_theme: ubirch/ubirch-docu-theme@main
     plugins:
     - jekyll-remote-theme # add this line to the plugins list if you already have one
     ```
 
 2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
 
+
     ```ruby
-    gem "github-pages", group: :jekyll_plugins
+    gem "ubirch-docu-theme"
     ```
+
+Run the command `bundle install` in the root of project to install the jekyll remote theme gem as a dependancy
+
+Run `bundle exec jekyll serve` to build and serve your site
+
+
+
 
 ## Customizing
 
@@ -88,18 +96,6 @@ Templates often rely on URLs supplied by GitHub such as links to your repository
 *Note: You must remove the `site.` prefix, and each variable name (after the `github.`) should be indent with two space below `github:`.*
 
 For more information, see [the Jekyll variables documentation](https://jekyllrb.com/docs/variables/).
-
-## Roadmap
-
-See the [open issues](https://github.com/pages-themes/hacker/issues) for a list of proposed features (and known issues).
-
-## Project philosophy
-
-The Hacker theme is intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
-
-## Contributing
-
-Interested in contributing to Hacker? We'd love your help. Hacker is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](docs/CONTRIBUTING.md) for instructions on how to contribute.
 
 ### Previewing the theme locally
 

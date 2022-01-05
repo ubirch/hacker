@@ -1,5 +1,5 @@
-title: Hacker theme
-description: Hacker is a theme for GitHub Pages.
+title: UBIRCH Docu theme
+description: Theme for GitHub pages with documentational purpose of UBIRCH projects
 show_downloads: true
 google_analytics:
-theme: jekyll-theme-hacker
+theme: ubirch-docu-theme
