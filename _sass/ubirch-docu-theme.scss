@@ -1,9 +1,10 @@
 @import "rouge-base16-dark";
 @import "default_colors";
+@import "ubirch_colors";
 
-$body-background: $cod-grey !default;
-$body-foreground: $gallery !default;
-$header: $conifer !default;
+$body-background: $ubirch-white !default;
+$body-foreground: $ubirch-black !default;
+$header: $ubirch-green-dark !default;
 $blockquote-color: $silver-chalice !default;
 $blockquote-border: $dove-grey !default;
 $container-max-width: 1000px;
@@ -52,9 +53,10 @@ li {
 */
 
 header {
-  background: rgba(0, 0, 0, 0.1);
+  background: $ubirch-black;
+  color: $ubirch-white;
   width: 100%;
-  border-bottom: 1px dashed $conifer; //header;
+  border-bottom: 1px dashed $ubirch-green-dark; //header;
   padding: 20px 0;
   margin: 0 0 40px 0;
 }
@@ -65,7 +67,7 @@ header h1 {
   margin: 0 0 0 -40px;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: $conifer;//$header;
+  color: $ubirch-green-dark;//$header;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
                0 0 10px rgba(181, 232, 83, 0.1);
